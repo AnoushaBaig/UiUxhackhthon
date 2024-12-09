@@ -18,10 +18,6 @@ const Detail = ({ product }: { product: ProductType }) => {
     <div>
       {/* Product Details Section */}
       <div className="flex flex-col md:flex-row md:space-x-8 md:px-10 px-4 py-6">
-
-         
-       
-        
         <div className="md:w-[55%] lg:w-full">  
            <h1 className="sm:text-2xl text-xl font-medium">{product.title}</h1>
           <span className="text-xl block my-2">£{product.price}</span>

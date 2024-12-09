@@ -1,6 +1,6 @@
 "use client"
 import { useState } from "react";
-import { FaAngleUp, FaAngleDown } from "react-icons/fa6";
+import { FaAngleUp, FaAngleDown } from "react-icons/fa";
 
 const Cartquantitycontroller = ({ price }: { price: number }) => {
     const [quantity, setQuantity] = useState(1)

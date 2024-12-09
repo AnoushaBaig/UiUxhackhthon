@@ -1,9 +1,8 @@
 "use client";
-import { Search, Heart, ShoppingCart, AlignJustify } from 'lucide-react';
 import Link from "next/link";
 import React, { useState } from "react";
-import { FaHeart, FaSearch, FaShoppingCart } from 'react-icons/fa';
-import { FiAlignJustify } from 'react-icons/fi';
+import { FaAlignJustify, FaHeart, FaSearch, FaShoppingCart } from 'react-icons/fa';
+
 
 function Header() {
   const [open, setOpen] = useState(false); // State to toggle menu
@@ -35,7 +34,7 @@ function Header() {
             className="text-gray-600 hover:text-black md:hidden"
             onClick={() => setOpen(!open)}
           >
-            < FiAlignJustify className="w-6 h-6" />
+            < FaAlignJustify className="w-6 h-6" />
           </button>
         </div>
       </div>
